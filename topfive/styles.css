@@ -1,0 +1,169 @@
+html {
+    background-color: #faf3e1;
+}
+
+
+h1{
+    font-size: 50px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:#0f3994;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.movie5{
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 100px;
+}
+
+.poster5 {
+    margin-top: 30px;
+    display: flex;
+}
+
+.spotify5{
+    position: relative;
+    top: 50px;
+    left: -610px;
+}
+
+
+.movie4{
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 200px;
+}
+
+.poster4 {
+    margin-top: 30px;
+    display: flex;
+}
+
+.spotify4{
+    position: relative;
+    top: 50px;
+    left: -610px;
+}
+
+
+
+
+
+.movie3{
+     width: 1100px;
+    height: 600px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 300px;
+}
+
+.poster3 {
+    margin-top: 30px;
+    display: flex;
+}
+
+.youtube3{
+    position: relative;
+    top: 50px;
+    left: -610px;
+}
+
+
+
+.movie2{
+    width: 1100px;
+   height: 600px;
+   margin: auto;
+   display: block;
+   position: relative;
+   top: 400px;
+}
+
+.poster2 {
+   margin-top: 30px;
+   display: flex;
+}
+
+.spotify2{
+   position: relative;
+   top: 50px;
+   left: -610px;
+}
+
+
+.movie1{
+    width: 1100px;
+   height: 600px;
+   margin: auto;
+   display: block;
+   position: relative;
+   top: 500px;
+}
+
+.poster1 {
+   margin-top: 30px;
+   display: flex;
+}
+
+.spotify1{
+   position: relative;
+   top: 50px;
+   left: -610px;
+}
+
+
+
+
+h2 {
+    font-size: 40px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:#0f3994;
+    position: relative;
+    left: 40px;
+    top: -43px;
+
+}
+
+p {
+    font-size: 20px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: normal;
+    color:#0f3994;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    width: 650px;
+}
+
+
+a {
+    color:#0f3994; 
+    text-decoration: none;
+}
+
+a:visited {
+    color:#0f3994; 
+}
+
+a:hover {
+    font-style: italic;
+}
