@@ -1,0 +1,144 @@
+@font-face{
+    font-family: gyparody,sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+
+
+body{
+    position: flex;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+img{
+    width: 500px;
+}
+
+h1{
+    font-family: gyparody,sans-serif;
+    font-size: 100px;
+    margin: 1%;
+    text-align: center;
+
+}
+
+h2{
+    font-family: monospace;
+    font-size: 50px;
+    margin: 1%;
+    text-align: center;
+
+}
+
+
+p{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 1%;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+    
+  
+  
+  @media only screen and (min-width: 0px) {
+
+
+    #small{
+        font-family: gyparody,sans-serif;
+        font-size: 100px;
+        display:block;
+        margin: 10%;
+        
+    }
+    #medium{
+        font-family: gyparody,sans-serif;
+        font-size: 100px;
+        display:none;
+        margin: 10%;
+    }
+    #large{
+        font-family: gyparody,sans-serif;
+        font-size: 100px;
+        display:none;
+        margin: 10%;
+    }
+
+    html {
+        background-color: turquoise;
+        
+    }
+
+    
+
+
+  }
+    
+  
+  
+  @media only screen and (min-width: 900px){
+
+    #small{
+        font-family: gyparody,sans-serif;
+        font-size: 100px;
+        display:none;
+    }
+    #medium{
+        font-family: gyparody,sans-serif;
+        font-size: 100px;
+        display:block;
+        margin: 10%;
+    }
+    #large{
+        font-family: gyparody,sans-serif;
+        font-size: 100px;
+        display:none;
+    }
+
+    html {
+        background-color: blue;
+        
+    }
+
+  }
+    
+   
+  
+    @media only screen and (min-width: 1200px){
+    
+        #small{
+            font-family: gyparody,sans-serif;
+            font-size: 100px;
+            display:none;
+        }
+        #medium{
+            font-family: gyparody,sans-serif;
+            font-size: 100px;
+            display:none;
+        }
+        #large{
+            font-family: gyparody,sans-serif;
+            font-size: 100px;
+            display:block;
+        }
+
+        html {
+            background-color: blueviolet;
+            
+        }
+
+  }
