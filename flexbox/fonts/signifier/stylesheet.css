@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Copyright Klim Type Foundry Test';
+    src: url('Signifier-RegularTest.woff2') format('woff2'),
+        url('Signifier-RegularTest.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signifier';
+    src: url('Signifier-Thin.woff2') format('woff2'),
+        url('Signifier-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

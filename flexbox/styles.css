@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'Signifier';
+    src: url('fonts/signifier/Signifier-Thin.woff2') format('woff2'),
+        url('fonts/signifier/Signifier-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+html{
+    background-color: #9ee09b;
+}
+
+#stamp{
+  width: 500px;
+  position: relative;
+  left: 950px;
+  top: 800px;
+}
+
+#stamp2{
+  width: 500px;
+  position: relative;
+  right: 900px;
+  top: 1200px;
+  transform: rotate(170deg);
+}
+
+h1{
+  font-family: 'Signifier';
+  font-size: 30px;
+  text-align: center; 
+  color:#9ee09b; 
+}
+
+
+
+body {
+  font-family: 'Signifier';
+  font-size: 25px;
+  text-align: center; 
+  color:#9ee09b; 
+  margin: 200px;
+  margin-top: 0px;
+  position: relative;
+  top: -300px;
+}
+
+#cicada{
+  position: relative;
+  top: -250px;
+  width: 700px;
+}
+
+#life{
+  width:250px;
+}
+
+#map{
+  position: relative;
+  top:-30px;
+}
+
+#sound{
+  width: 200px;
+}
+
+#plane{
+  width: 400px;
+  transform: rotate(40deg);
+  position: relative;
+  top: -60px;
+}
+
+#may{
+  width:250px;
+}
+
+
+.child{
+    margin: 0px 5px 5px 0px;
+    height: 320px;
+    padding: 30px;
+  }
+
+
+
+
+.container{
+    padding: 10px;
+
+}
+
+
+.intro{
+    background-color:#0a9c03;
+  }
+
+
+.first{
+display: flex;
+
+}
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 10%;
+}
+
+
+.right{
+    flex: 30%;
+}
+
+
+
+.one{
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.lower{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+
+.lowerleft{
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+}
+
+.pair{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.pairtop{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+
+
+
+
+
+.flex1{
+
+  background-color: #0a9c03;
+  flex: 15%;
+}
+
+.flex2 {
+    flex: 15%;
+  background-color: #0a9c03;
+}
+.flex6 {
+    flex: 15%;
+    background-color: #0a9c03;
+  }
+  
+  
+  .flex7 {
+    flex: 15%;
+    background-color:#0a9c03;
+  }
+
+
+
+
+.flex3 {
+    flex: 25%;
+  background-color: #0a9c03;
+}
+
+.flex4 {
+    flex: 25%;
+  background-color: #0a9c03;
+}
+
+
+.flex5 {
+    flex: 25%;
+  background-color: #0a9c03;
+}
+
+
+.flex8 {
+flex: 25%;
+  background-color: #0a9c03;
+}
+
+
+
+
+
+.flex9 {
+  background-color: #0a9c03;
+  flex: 33%;
+}
+
+
+.flex10 {
+  background-color: #0a9c03;
+  flex: 33%;
+}
+
+.flex11 {
+background-color: #0a9c03;
+flex: 33%;
+}
+
+
+
+
+.flex12 {
+  background-color: #0a9c03;
+  flex: 25%
+
+}
+
+
+.flex13 {
+      background-color: #0a9c03;
+      flex: 25%
+
+   
+  }
+    
+
+
+.flex14 {
+  background-color: #0a9c03;
+  flex: 25%
+}
+
+.flex15 {
+  background-color: #0a9c03;
+  flex: 25%
+}
+
+
+
+
+
+
+.flex16 {
+    flex: 20%;
+  background-color: #0a9c03;
+}
+
+.flex17 {
+    flex: 20%;
+  background-color: #0a9c03;
+}
+
+.flex18 {
+    flex: 20%;
+  background-color: #0a9c03;
+}
+
+.flex19 {
+    flex: 20%;
+  background-color: #0a9c03;
+}
+
+.flex20 {
+    flex: 20%;
+  background-color: #0a9c03;
+}
+
+
