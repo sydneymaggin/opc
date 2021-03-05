@@ -1,0 +1,6 @@
+-Make content more interesting
+-Try and use some javascript or interactive element
+-Make the site feel minimalistic and organized
+-Have a simple color scheme
+-Make responsive
+-Feel more designed than the first show me what you got
