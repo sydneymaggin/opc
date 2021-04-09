@@ -1,0 +1,134 @@
+@font-face{
+  font-family: "Anthony";
+    src: url("https://cdn.glitch.com/bd40f3ef-389d-4575-9708-5cd1e7fd45cd%2FAnthony.woff?v=1617824353323assets/Anthony.woff") format("woff");
+}
+
+
+body{
+/*   background-color:orange; */
+  font-size:40px;
+  font-family: "Anthony";
+
+
+}
+
+h1{
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.collection{
+  display:flex;
+  align-items:flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+}
+
+.main-container{
+  background: grey;
+  color: 	#ADFF2F;
+border-radius: 100px;
+  padding:40px;
+ margin-bottom: 10px;
+  margin-right: 10px;
+  line-height: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+div.main-container:hover {
+  background: #ADFF2F;
+  color: black;
+}
+
+
+
+.rat-identity{
+  display: none;
+}
+
+.rat-identity.active{
+  display: block;
+}
+
+.rat-description{
+  display: none;
+}
+
+.rat-description.active{
+  display: block;
+}
+
+.rat-image{
+ width: 200px;
+ display: none; 
+}
+
+.rat-image.active{
+  display: block;
+  max-width: 200px;
+  border-radius: 100px;
+}
+
+
+.filter {
+  padding: 2rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+  
+  h1{
+    color:white;
+  }
+  .main-container{
+  background: blue;
+  color: 	white;
+  border-style: solid;
+  border-color: white;
+    
+
+}
+   div.main-container:hover{
+  background: white;
+  color: 	black;
+
+}
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: black;
+  }
+  
+  h1{
+    color:white;
+    font-size:30px;
+  }
+  .main-container{
+  background: black;
+  color: 	white;
+  border-style: solid;
+  border-color: yellow;
+  font-size: 15px;
+  padding: 10%;
+  
+
+  }
+   div.main-container:hover{
+  background: yellow;
+  color: 	black;
+
+}
+
+
+}
